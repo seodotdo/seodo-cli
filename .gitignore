@@ -5,3 +5,6 @@ __pycache__
 venv/
 .idea/
 setup.py
+dist
+dist/
+seo-do.rb
