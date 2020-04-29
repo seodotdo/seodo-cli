@@ -8,3 +8,5 @@ setup.py
 dist
 dist/
 seo-do.rb
+pyproject.toml
+seo-do.rb

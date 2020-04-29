@@ -151,31 +151,3 @@ def group(
         typer.echo(tabulate(final_response))
     else:
         export_file(export_to_file, final_response, delimiter)
-
-
-@app.command()
-def group_smart():
-    """
-    Takes a list of keywords and returns the smart grouped response
-    """
-    typer.echo("Smart grouping")
-
-
-@app.command()
-def get_google_categories():
-    """
-    Takes a list of keywords and returns the each keywords categories
-    """
-    typer.echo("Getting google cats")
-
-
-@app.command()
-def group_commonality(groups: str):
-    """
-    Takes a list of keywords and returns the response which was grouped by commonality
-    """
-    typer.echo("Commonality grouping")
-
-
-if __name__ == "__main__":
-    app()
