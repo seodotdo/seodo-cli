@@ -7,10 +7,10 @@ class seodo < Formula
   sha256 "7545d2ebaf43f71e090bc27b61a736cd4b9fc5e3cf8d21a33818830e0dfa36c8"
   head "https://github.com/seodotdo/seodo-cli.git"
 
-  revision 1
+  # TODO: If you're submitting an existing package, make sure you include your
+  #       bottle block here.
 
-  depends_on "python@3"
-
+  depends_on :python3
 
   resource "certifi" do
     url "https://files.pythonhosted.org/packages/57/2b/26e37a4b034800c960a00c4e1b3d9ca5d7014e983e6e729e33ea2f36426c/certifi-2020.4.5.1-py2.py3-none-any.whl#sha256=1d987a998c75633c40847cc966fcf5904906c920a7f17ef374f5aa4282abd304"
