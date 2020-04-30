@@ -14,6 +14,7 @@ click = "7.1.1"
 future = "0.18.2"
 requests = "2.23.0"
 tabulate = "0.8.7"
+cachy = "0.3.0"
 typer = {extras = ["all"], version = "^0.1.1"}
 
 [tool.poetry.dev-dependencies]
